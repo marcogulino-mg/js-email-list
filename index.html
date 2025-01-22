@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>js-email-list</title>
     <!-- IMPORT BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
       integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
@@ -22,8 +28,10 @@
     <script src="./js/script.js" defer></script>
   </head>
   <body>
-    <!-- Lista di EMAIL generate mediante API -->
-    Lista di 10 email randomiche
-    <ul id="email-list"></ul>
+    <div class="container mt-5">
+      <!-- Lista di EMAIL generate mediante API -->
+      <h1 class="text-center fw-bold">Lista di 10 email randomiche</h1>
+      <ul id="email-list" class="list-group pt-5"></ul>      
+    </div>
   </body>
 </html>

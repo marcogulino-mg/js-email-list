@@ -13,7 +13,7 @@ for (let i = 0; i < userChoice; i++) {
       //Codice da eseguire in caso di successo
       const randEmail = responseObj.data.response;
       //Contenuto della lista
-      listEmail.innerHTML += `<li>${randEmail}</li>`;
+      listEmail.innerHTML += `<li class="list-group-item">${randEmail}</li>`;
     })
     .catch((error) => {
       //Codice da eseguire in caso di errore
